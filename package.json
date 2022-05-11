@@ -4,17 +4,31 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./node_modules/.bin/jest",
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/raulquintero13/nodejs-backend.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Raul QUintero",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/raulquintero13/nodejs-backend/issues"
   },
-  "homepage": "https://github.com/raulquintero13/nodejs-backend#readme"
+  "homepage": "https://github.com/raulquintero13/nodejs-backend#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "jest": "^28.1.0",
+    "prisma": "^3.14.0"
+  },
+  "dependencies": {
+    "@prisma/client": "^3.14.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "save-dev": "0.0.1-security"
+  }
 }
