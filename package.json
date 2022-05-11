@@ -23,7 +23,8 @@
   "devDependencies": {
     "eslint": "^8.15.0",
     "jest": "^28.1.0",
-    "prisma": "^3.14.0"
+    "prisma": "^3.14.0",
+    "supertest": "^6.2.3"
   },
   "dependencies": {
     "@prisma/client": "^3.14.0",
