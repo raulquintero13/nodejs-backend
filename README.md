@@ -12,7 +12,7 @@ Instalar proyecto
 npm install
 ```
 
-renombrar archivo .env_demo a .env y cambiar usuario y contraseña
+en el archivo .env cambiar usuario y contraseña de la base de datos
 ```
 DATABASE_URL="postgresql://USUARIO:PASSWORD@localhost:5432/explorers_api?schema=public"
 ```
