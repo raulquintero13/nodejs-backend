@@ -12,14 +12,9 @@ Instalar proyecto
 npm install
 ```
 
-Ejecutar App
-```
-npm run server
-```
-
 modificar archivo .env con credenciales de servidor
 ```
-DATABASE_URL="postgresql://usuario:password@localhost:5432/explorers_api?schema=public"
+DATABASE_URL="postgresql://USUARIO:PASSWORD@localhost:5432/explorers_api?schema=public"
 ```
 
 Inicializar BD
