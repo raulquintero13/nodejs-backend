@@ -65,6 +65,13 @@ Respuesta estandar de la API
 }
 ```
 
+Pruebas Unitarias
+
+Solo se aplicaron algunas pruebas unitarias, quedan pendientes las pruebas unitarias relacionadas
+con las bases de datos 
+- server.test.js
+- /services/FormatService.test.js
+status
 
 Diagrama del proceso de las aplicaciones
 
